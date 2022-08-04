@@ -1,7 +1,16 @@
 # TestApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.  
 
+**Nerisse Ramos / nerisse.ramos@gmail.com**
+## Firstmac Dev Test
+Runs search on data.json file to provide shortest link between 2 users, as provided by input.json
+
+###Configured files:
+- src/assets/data.json  
+- src/assets/input.json
+
+![img2.png](img2.png)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

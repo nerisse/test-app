@@ -1,0 +1,11 @@
+table {
+  width: 400px;
+  //border-collapse: collapse;
+  table-layout: fixed;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 1px;
+}
