@@ -32,7 +32,7 @@ export class UserService {
    * Runs BFS to get shortestPath and map of connected node predecessors/followers
    * @param input - Input containing 'from' (source) to 'to' (target) from input.json
    * @param followList - list of users and followers from data.json
-   * @returns object with shortest link distance and map of connected predecessors
+   * @returns object with the shortest link distance and map of connected predecessors
    */
   runBreadthFirstSearch(input: Input, followList: User[]): any {
 
@@ -56,7 +56,7 @@ export class UserService {
         return { shortestLink: distanceToNode, predecessors };
       }
 
-      // sort to retrieve smallest user IDs first
+      // sort to retrieve the smallest user IDs first
       followers = followList[node]?.follows.sort();
 
       for (let follower of followers) {
@@ -72,10 +72,10 @@ export class UserService {
   }
 
   /**
-   * Formats and provides complete UserConnectionResult to represent shortest link between from & to inputs
+   * Formats and provides complete UserConnectionResult to represent the shortest link between from & to inputs
    * @param searchResult
    * @param input
-   * @returns UserConnectionResult containing input values/scenario and corresponding shortest link
+   * @returns UserConnectionResult containing input values/scenario and corresponding the shortest link
    */
   getOutputPath(searchResult: any, input: Input): UserConnectionResult {
     let inputString =  "Case " + input.from + " to " + input.to;
@@ -90,7 +90,7 @@ export class UserService {
       }
       outputString = arr.reverse().join(' --> ');
     }else{
-      outputString = "\t\tLink not found";
+      outputString = "Link not found";
     }
 
     let userConnectionResult: UserConnectionResult = {input: inputString, connection: outputString};

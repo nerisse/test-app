@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Firstmac Dev Test
 Runs search on data.json file to provide shortest link between 2 users, as provided by input.json
 
-###Configured files:
+### Configured files:
 - src/assets/data.json  
 - src/assets/input.json
 
