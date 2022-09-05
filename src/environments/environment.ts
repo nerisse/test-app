@@ -5,7 +5,7 @@
 export const environment = {
   production: false
 };
-
+// this is another test comment - 2022 - testsquash3
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
@@ -14,3 +14,6 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+
+// this is a test comment - 2022 - testsquash1
+// this is another test comment - 2022 - testsquash2
